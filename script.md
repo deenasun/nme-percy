@@ -18,4 +18,4 @@ python -m scripts.test_path_planning --grid results/grid_maps/city_depth_grid.np
 ## this trains the RL agent
 ### it will take about 5 minutes for 64x64 grid
 ### as long as there is a bar that says Evaluation 100/100: 100%|██████████████████████████████| 100/100 [00:00<00:00, 219.56it/s, Reward=63.10, Steps=200, Success=0] it is working
-python -m scripts.train_rl_agent --grid results/grid_maps/city_depth_grid.npy --invert-grid --max-grid-size 64 --episodes 50000 --learning-rate 0.2 --discount-factor 0.99 --exploration-rate 1 --exploration-decay 0.998
+python -m scripts.train_rl_agent --grid results/grid_maps/city_depth_grid.npy --max-grid-size 64 --episodes 50000 --learning-rate 0.2 --discount-factor 0.99 --exploration-rate 1 --exploration-decay 0.998
