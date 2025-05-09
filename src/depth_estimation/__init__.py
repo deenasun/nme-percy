@@ -1,0 +1,1 @@
+"""Depth estimation module for generating depth maps from RGB images.""" 

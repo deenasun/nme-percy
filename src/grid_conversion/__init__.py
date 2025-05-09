@@ -1,0 +1,1 @@
+"""Grid conversion module for transforming depth maps to navigable grid environments.""" 

@@ -1,0 +1,10 @@
+Q-Table Diagnostic Report
+======================
+Grid Size: 8x8
+Start Position: (7, 7)
+Goal Position: (7, 7)
+Q-values: min=-1.66640531, max=99.99999999999994, mean=0.03077740390316333
+Non-zero values: 50/16384 (0.31%)
+Path found from start to goal in 0 steps
+
+Path from start:
